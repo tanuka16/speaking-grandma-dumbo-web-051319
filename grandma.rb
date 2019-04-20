@@ -14,7 +14,7 @@
 def speak_to_grandma(phrase="I LOVE YOU GRANDMA!" )
   if phrase.uppercase
     return "I LOVE YOU TOO PUMPKIN!"
-  else phrase.lowercase
+  elseif phrase.lowercase
     return "HUH?! SPEAK UP, SONNY!"
   end
 
