@@ -11,7 +11,7 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
-def speak_to_grandma(phrase)
+#def speak_to_grandma(phrase)
   # Check if string equals same phrase all upper case
   if phrase == phrase.upcase
     return "NO, NOT SINCE 1938!"
