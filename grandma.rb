@@ -26,12 +26,12 @@ end
   if phrase = phrase.upcase
     #return "NO, NOT SINCE 1938!"
     if phrase == "I LOVE YOU GRANDMA!"
-      return "I LOVE YOU TOO PUMPKIN!"
+      puts "I LOVE YOU TOO PUMPKIN!"
     else
-      return "NO, NOT SINCE 1938!"
+      puts "NO, NOT SINCE 1938!"
     end
   else
-    return "HUH?! SPEAK UP, SONNY!"
+    puts "HUH?! SPEAK UP, SONNY!"
 end
 =begin  if phrase == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
