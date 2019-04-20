@@ -20,5 +20,4 @@ def speak_to_grandma(phrase)
   else pharse()
     return "I LOVE YOU TOO PUMPKIN!"
   end
-
 end
