@@ -14,9 +14,9 @@
 def speak_to_grandma(phrase)
   # Check if string equals same phrase all upper case
   if phrase == phrase.upcase
-    return "NO, NOT SINCE 1938!"
+    puts "NO, NOT SINCE 1938!"
   elsif phrase != phrase.upcase
-    return "HUH?! SPEAK UP, SONNY!"
+    puts "HUH?! SPEAK UP, SONNY!"
   else pharse == "I LOVE YOU GRANDMA"
     return "I LOVE YOU TOO PUMPKIN!"
   end
