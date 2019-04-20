@@ -26,16 +26,15 @@ end
 
   if phrase == phrase.upcase
     #return "NO, NOT SINCE 1938!"
-    if phrase == "I LOVE YOU GRANDMA!"
-      return "I LOVE YOU TOO PUMPKIN!"
+    if phrase == "I LOVE YOU GRANDMA!"            #check if the string is uppercase and equals to "I LOVE YOU GRANDMA!"
+      return "I LOVE YOU TOO PUMPKIN!"            #if yes, it returns "I LOVE YOU TOO PUMPKIN!"
     else
-      return "NO, NOT SINCE 1938!"
+      return "NO, NOT SINCE 1938!"                #if it's only uppercase it'll return "NO, NOT SINCE 1938!"
     end
   else
     return "HUH?! SPEAK UP, SONNY!"
 end
-#so if its uppercase and equals to "I LOVE YOU GRANDMA!", it'll return "I LOVE YOU TOO PUMPKIN!"
-#and it's only uppercase it'll return "NO, NOT SINCE 1938!"
+
 
 =begin  if phrase == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN!"
